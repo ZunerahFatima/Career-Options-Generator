@@ -1,0 +1,73 @@
+body {
+    background-color:lightskyblue;
+    font-family: Georgia;
+    font-size:x-large;
+    color:midnightblue;   
+}
+h2{
+    font-size: 30px;
+    font-family: Georgia;
+    color:midnightblue;
+    text-align: center;
+}
+select{
+    font-family:Georgia;
+    font-size:large;
+    color:midnightblue;
+    box-sizing: border-box;
+    text-decoration:solid;
+    cursor: pointer;
+    text-align:center;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    margin-top: 20px;
+    max-width: 300px;
+}
+div[id="survey"]{
+    text-align: center;
+    font-family: Georgia;
+    font-size: 25px;
+    color:midnightblue;
+    padding: 15px,30px;
+}
+label {
+    padding: auto;
+    display: inline-block;}
+p{
+font-family:verdana;
+font-size:15px;
+}
+
+input[type=button] {
+    background-color: midnightblue;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-decoration:solid;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 20%;
+    font-size: x-large;
+    font-family: Georgia;
+  }
+div[id="output"]{
+    background-color: midnightblue;
+    color: mintcream;
+    width: 300px;
+    border: 15px solid mintcream;
+    padding: 80px;
+    margin:auto;
+    text-align:center;
+    font-size: medium;
+    font-family: Georgia;
+    font-style: bold;
+    align-items: center;
+}
+h5{
+    font-size: x-large;
+    font-family: Georgia;
+    color:mintcream;
+}

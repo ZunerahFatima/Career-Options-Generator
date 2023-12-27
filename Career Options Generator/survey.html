@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+  <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Survey</title>
+<link rel="stylesheet" href="survey.css">
+<script src="survey.js"></script>
+</head>
+<body>
+<h2>Answer the Survey</h2>
+<div id="survey">
+<form  id="form1">
+
+  <p>Pick the core subject that you chose in intermediate</p>
+  <select id="firstquestion">
+    <option value="0">Choose:</option>
+    <option value="maths">Maths</option>
+    <option value="science">Science</option>
+    <option value="commerce">Commerce</option>
+    <option value="arts">Arts</option>
+  </select>
+  
+ <p>What were your other subjects in intermediate?</p>
+  <select id="secondquestion">
+    <option value="0">Choose:</option>
+    <option value="p/c">Physics/chemistry</option>
+    <option value="c/e">Commerce/Economics</option>
+    <option value="other">Other</option>
+  </select>
+
+  <p>Would you prefer a career involving computer science?</p>
+  <select id="thirdquestion">
+    <option value="0">Choose:</option>
+    <option value="yes">Yes</option>
+    <option value="no">No</option>
+  </select>
+
+ <p>Is a high paying job your first priority</p>
+  <select id="fourthquestion">
+    <option value="0">Choose:</option>
+    <option value="yes">Yes</option>
+    <option value="no">No</option>
+  </select>
+
+ <p>Would you like to settle in India or abroad?</p>
+  <select id="fifthquestion">
+    <option value="0">Choose:</option>
+    <option value="india">India</option>
+    <option value="abroad">Abroad</option>
+  </select>
+ <br>
+ <br>
+ <input type="button" id="done" value="Get Your Results" onclick="return MyFunction()"><br><br>
+  </form>
+</div>
+<div id="output">
+  <h5> Results:</h5>
+  <p><i>Here are some career options for you:</i><br> <br /> <span id="printanswer"></span></p>
+</div>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <h1>Career Options</h1><br>
+    <h3>Your search for the perfect career option ends here!</h3><br>
+    <p>Fill the survey and get the best career options recommended to you</p><br><br>
+<div>
+    <label for="name"><em>Please enter your name to continue:</em></label><br>
+    <input type="text" id="name" placeholder="Enter your name" ><br><br><br><br>
+    <input type="button" value="Take the survey" id="homebtn">
+</div>
+<script>
+    document.getElementById("homebtn").onclick=function(){
+        location.href="survey.html"
+    }
+</script>
+</body>
+</html>
